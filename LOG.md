@@ -19,3 +19,28 @@ mkdir -p src
 # Install dependencies
 npm install
 ```
+
+### Parcel Configuration
+Added Parcel bundler configuration for optimal React development
+
+**Files Created/Modified:**
+- `.parcelrc`: Added Parcel configuration for JavaScript and SCSS transformers
+- Updated `package.json` with:
+  - Added `source` field pointing to entry HTML
+  - Enhanced npm scripts for development
+  - Added browserslist configuration
+
+**Available Commands:**
+```bash
+# Start development server
+npm start
+
+# Watch for changes
+npm run watch
+
+# Build for production
+npm run build
+
+# Clean build files
+npm run clean
+```
